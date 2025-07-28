@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, sans-serif;
+    
+    background-color:whitesmoke;
+    color: #007BFF;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+ max-width: 800px; 
+ 
+  margin: auto; 
+    }
+    .leave img {
+    position: absolute ;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: auto;
+    z-index: 1;
+     border-radius: 5px;
+    margin-bottom: 60px; /* ✅ Added spacing below */
+}
+
+    
+       .header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 50px;
+  
+}
+
+label {
+    display: inline-block;
+    color: #007BFF;
+    width: 200px;
+    margin-right: 15px;
+    margin-bottom: 15px; 
+}
+input, select, textarea {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    accent-color: #007BFF;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+
+.submit-btn {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.submit-btn input {
+    width: 200px;
+    padding: 8px;
+    background-color: #007BFF; /* Bootstrap blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn input:hover {
+    background-color: #0056b3;
+}
+
+.print-link {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+
+.disabled {
+    
+    color: #336699; 
+    pointer-events: none;
+    border: 1px solid #aaccee;
+}
