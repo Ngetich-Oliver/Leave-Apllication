@@ -3,8 +3,8 @@ session_start();
 require 'functions.php';
 
 
-$admin_username = 'admin';
-$admin_password = 'admin@34500';
+$admin_username = 'your_admin_username';
+$admin_password = 'your_admin_pasword';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
