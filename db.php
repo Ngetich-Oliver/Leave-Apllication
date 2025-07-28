@@ -1,9 +1,9 @@
 
 <?php
 //   db.php
-$server="localhost";
-$username="root"; 
-$password="";
+$server="yourhost";
+$username=""; 
+$password="your pasword";
 $dbname="leave_db";
 
 $conn = mysqli_connect($server, $username, $password, $dbname);
